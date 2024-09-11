@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color:#0E0D0D ;
+}
+
+/* Estilos de mobile */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header nav ul{
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding-right: 20px;
+}
+
+
+
+/* Estilos de main */
+
+
+main{
+    height: 70vh;
+    margin: 30px 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 23%) ;
+    row-gap: 1.5rem;
+    align-content: center;
+
+
+}
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+main .img-dos, main .img-cinco{
+    display: none;
+
+}
+
+/* Estilos de footer */
+footer{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+/* Estilos Tablets */
+
+@media screen and (min-width:600px){
+    /*  */
+
+   
+}
